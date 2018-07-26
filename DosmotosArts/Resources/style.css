@@ -1,0 +1,43 @@
+#header {
+    background-image: url(Images/pattern.jpg);
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+.price {
+    color: blue;
+    font-family: Helvetica
+}
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#brushes-category {
+    background-color: mediumaquamarine;
+}
+
+#frames-category {
+    background-color: lightcoral;
+}
+
+#paint-category {
+    background-color: skyblue;
+}
+
+#backToTop {
+    text-align: center;
+    color: darkgreen;
+}
+
+#footer {
+    margin-top: 90px;
+}
