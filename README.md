@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dosmoto's Arts &amp; Crafts</title>
+    <link href="Resources/style.css" type="text/css" rel="stylesheet">
+</head>
 
-You can use the [editor on GitHub](https://github.com/d-zucho/DosmotosArts/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<body>
+    <div id="header">      <!--Should I be using <section> here-->
+        <h1 id="top">Dosmoto's Arts &amp; Crafts</h1>
+    </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <div class="stock-item">    <!--Should I be using <section>-->
+        <h2 id="brushes-category">Brushes</h2>
 
-### Markdown
+        <img src="Resources/Images/hacksaw.jpg" alt="Hacksaw Brushes">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <h3 id="hacksaw">Hacksaw Brushes</h3>
+            <p>Made of the highest quality oak, Hacksaw Brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span class="price">Starting at &#36;3.00 / brush.</span></p>
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <div class="stock-item">      <!--Should I be using <section>-->
+        <h2 id="frames-category">Frames</h2>
+        <img src="Resources/Images/frames.jpg" alt="Beautiful Color Art Frames">
 
-# Header 1
-## Header 2
-### Header 3
+        <h3>Art Frames (assorted)</h3>
+            <p>Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs. <span class="price">Starting at &#36;2.00 / frame.</span></p>
+    </div>
 
-- Bulleted
-- List
+    <div class="stock-item">  <!--Should I be using <section>-->
+        <h2 id="paint-category">Paint</h2>
+        <img src="Resources/Images/finnish.jpg" alt="Clean Finnish Paint">
+        <h3>Clean Finnish Paint</h3>
+            <p>Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork. <span class="price">Starting at &#36;5.00 / tube.</span></p>
 
-1. Numbered
-2. List
+    </div> 
 
-**Bold** and _Italic_ and `Code` text
+    <div id="footer">       <!--Should I be using <footer>-->
+        <p id="backToTop"><a href="#top">Back to top</a></p>
+            <hr>
+            <p>&copy; Dosmotos Arts &amp; Crafts</p>
+        
+    </div>
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/d-zucho/DosmotosArts/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
